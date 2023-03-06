@@ -11,6 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+## [0.31.0-patch0] - 2023-03-10
+
+Cherry-picked 9ca59de083d6e09fe164a15b3a4d9463cd0b75df onto 0.31.0.
+
+### Changed
+
+- Change `PageIterator` to use `GetValue` method instead of `value` field to access response.
+
 ## [0.31.0] - 2022-12-13
 
 ### Changed
@@ -206,7 +214,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated references to Kiota packages to fix a [bug where the access token would never be attached to the request](https://github.com/microsoft/kiota/pull/1116). 
+- Updated references to Kiota packages to fix a [bug where the access token would never be attached to the request](https://github.com/microsoft/kiota/pull/1116).
 
 ## [0.0.6] - 2022-02-02
 
